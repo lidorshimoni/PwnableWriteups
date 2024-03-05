@@ -1,0 +1,4 @@
+random@pwnable:~$ ./random
+-1255736440
+Good!
+Mommy, I thought libc random is unpredictable...

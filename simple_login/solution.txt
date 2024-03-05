@@ -1,0 +1,4 @@
+This code is unsafe probably due to bad memcpy or someththing.
+this wont generate the same md5sum of the same input on the server
+nc pwnable.kr 9003 < answer.bin
+python -c 'print("Z"*10)' > answer.bin

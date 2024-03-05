@@ -1,0 +1,3 @@
+mommy now I get what PATH environment is for :)
+
+/home/cmd1/cmd1 /bin/cat\ /home/cmd1/fla\*

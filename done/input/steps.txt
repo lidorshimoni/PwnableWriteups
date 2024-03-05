@@ -1,0 +1,7 @@
+mkdir /tmp/lidor
+cp solution file to lidor
+gcc solution.c
+,.solution.c
+nc pwnable.kr 21299 with echo \x00*4
+
+Mommy! I learned how to pass various input in Linux :)

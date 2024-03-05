@@ -1,0 +1,2 @@
+cd ..; cd ..; cd bin; $PWD${PWD%bin}cat  ${PWD%bin}home${PWD%bin}cmd2${PWD%bin}fla*
+FuN_w1th_5h3ll_v4riabl3s_haha
