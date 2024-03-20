@@ -14,9 +14,9 @@ void shell(){
 void unlink(OBJ* P){
 	OBJ* BK;
 	OBJ* FD;
-	BK=P->bk;
-	FD=P->fd;
-	FD->bk=BK;
+	BK=P->bk; // pointer to shellptr
+	FD=P->fd; // pointer to ret
+	FD->bk=BK; 
 	BK->fd=FD;
 }
 int main(int argc, char* argv[]){
