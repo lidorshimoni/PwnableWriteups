@@ -22,6 +22,7 @@ void unlink(OBJ* P){
 int main(int argc, char* argv[]){
 	malloc(1024);
 	OBJ* A = (OBJ*)malloc(sizeof(OBJ));
+	// obj A = new Obj();
 	OBJ* B = (OBJ*)malloc(sizeof(OBJ));
 	OBJ* C = (OBJ*)malloc(sizeof(OBJ));
 
@@ -35,7 +36,8 @@ int main(int argc, char* argv[]){
 	printf("here is heap address leak: %p\n", A);
 	printf("now that you have leaks, get shell!\n");
 	// heap overflow!
-	gets(A->buf);
+	gets(A->buf);	
+	
 
 	// exploit this unlink!
 	unlink(B);
